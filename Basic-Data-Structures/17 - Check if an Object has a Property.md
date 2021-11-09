@@ -112,7 +112,10 @@ let users = {
 
 function isEveryoneHere(obj) {
   // change code below this line
-  if (obj.hasOwnProperty('Alan', 'Jeff', 'Sarah', 'Ryan')) {
+ if (userObj.hasOwnProperty("Alan") &&
+    userObj.hasOwnProperty("Jeff") &&
+    userObj.hasOwnProperty("Sarah") &&
+    userObj.hasOwnProperty("Ryan")) {
     return true;
   } else {
     return false;
